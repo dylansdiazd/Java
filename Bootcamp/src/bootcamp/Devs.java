@@ -17,6 +17,46 @@ public class Devs {
         this.mentoriasParticipadas = new ArrayList<>();
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getNivelExperiencia() {
+        return nivelExperiencia;
+    }
+
+    public void setNivelExperiencia(int nivelExperiencia) {
+        this.nivelExperiencia = nivelExperiencia;
+    }
+
+    public ArrayList<String> getLinguagensDominadas() {
+        return linguagensDominadas;
+    }
+
+    public void setLinguagensDominadas(ArrayList<String> linguagensDominadas) {
+        this.linguagensDominadas = linguagensDominadas;
+    }
+
+    public ArrayList<Curso> getCursosConcluidos() {
+        return cursosConcluidos;
+    }
+
+    public void setCursosConcluidos(ArrayList<Curso> cursosConcluidos) {
+        this.cursosConcluidos = cursosConcluidos;
+    }
+
+    public ArrayList<Mentoria> getMentoriasParticipadas() {
+        return mentoriasParticipadas;
+    }
+
+    public void setMentoriasParticipadas(ArrayList<Mentoria> mentoriasParticipadas) {
+        this.mentoriasParticipadas = mentoriasParticipadas;
+    }
+
     public void inscreverEmCurso(Curso curso) {
         cursosConcluidos.add(curso);
     }
