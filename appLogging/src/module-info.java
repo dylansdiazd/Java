@@ -1,0 +1,6 @@
+
+module appLogging {
+	
+	exports appLogging;
+	
+}

@@ -1,0 +1,30 @@
+INSERT INTO estados(nome, sigla, regiao, populacao)
+VALUES('ACRE', 'AC', 'Norte', 0.83);
+
+INSERT INTO estados(nome, sigla, regiao, populacao)
+VALUES('ALAGOAS', 'AL', 'Nordeste', '3.38'),
+('AMAPÁ', 'AP', 'Norte',  '0.8'),
+('AMAZONAS', 'AM', 'Norte', '4.06'),
+('BAHIA', 'BA', 'Nordeste', '15.34'),
+('CEARÁ', 'CE', 'Nordeste', '9.02'),
+('ESPÍRITO SANTO', 'ES', 'Sudeste', '4.02'),
+('GOIÁS', 'GO', 'Centro-Oeste', '6.78'),
+('MARANHÃO', 'MA', 'Nordeste', '7.00'),
+('MATO GROSSO', 'MT', 'Centro-Oeste', '3.34'),
+('MATO GROSSO DO SUL', 'MS', 'Centro-Oeste', '2.71'),
+('MINAS GERAIS', 'MG', 'Sudeste', '21.12'),
+('PARÁ', 'PA', 'Norte', '8.36'),
+('PARAÍBA', 'PB', 'Nordeste', '4.03'),
+('PARANÁ', 'PR', 'Sul', '11.22'),
+('PERNAMBUCO', 'PE', 'Nordeste', '9.47'),
+('PIAUÍ', 'PI', 'Nordeste', '3.22'),
+('RIO DE JANEIRO', 'RJ', 'Sudeste', '16.72'),
+('RIO GRANDE DO NORTE', 'RN', 'Nordeste', '3.51'),
+('RIO GRANDE DO SUL', 'RS', 'Sul', '11.32'),
+('RONDÔNIA', 'RO', 'Norte', '1.81'),
+('RORAIMA', 'RR', 'Norte', '0.52'),
+('SANTA CATARINA', 'SC', 'Sul', '7.01'),
+('SÃO PAULO', 'SP', 'Sudeste', '45.10'),
+('SERGIPE', 'SE', 'Nordeste', '2.29'),
+('TOCANTINS', 'TO', 'Norte', '1.55'),
+('DISTRITO FEDERAL', 'DF', 'Centro-Oeste', '3.04');

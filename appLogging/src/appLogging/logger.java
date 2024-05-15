@@ -1,0 +1,14 @@
+package appLogging;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class logger {
+ 
+	public static void info(String msg) {
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy  HH:mm:ss");
+		System.out.println("[INFO]" + sdf.format(new Date())
+		+ "- " + msg);
+	}
+
+}
